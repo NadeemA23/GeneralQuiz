@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(325deg,  #910404 0%,#00c5fc 50%,#1f9d43 100%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body.correct {
+    background-image: linear-gradient(325deg, #00c5fc 0%, #1f9d43 40%, #00c5fc 100%);
+}
+
+body.wrong {
+    background-image: linear-gradient(325deg, #00c5fc 0%, #910404 40%, #00c5fc 100%);
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+
+
+.btn-grid {
+    display:grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn {
+    border: 1px solid #000000;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: n;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #2580b3;
+}
+
+.btn.correct {
+    background-color: #5CB85C;
+    border-color: #000000;
+}
+
+.btn.wrong {
+    background-color: #D9534F;
+    border-color: #000000;
+}
+
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
