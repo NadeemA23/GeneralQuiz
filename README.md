@@ -1,4 +1,4 @@
-![CI logo](assets/images/weblogo.png)
+![CI logo](assets/images/logo.png)
 
 ## Quiz Game
 This project is a simple quiz game that challenges users with a series of questions on different topics. The game provides multiple-choice options for each question, and the user must select the correct answer. The project is designed to be interactive, engaging, and easy to navigate.
@@ -34,7 +34,7 @@ The main objectives of this project are:
 - shows correct and wrong answer
 - tally count
 
-## Structure:
+# Structure:
 
 ## This is a multi page quiz consisting of the following:
 
@@ -58,6 +58,15 @@ HTML
 CSS
 JavaScript
 
+### Scope
+
+In order to get the correct ideas accross , the game will contain these features: 
+
+- logo in web bar 
+- Interactive quiz where the background changes colour depending on whether its correct or incorrect answer
+- A tally which updates everytime a question is answered
+- Same colour scheme / design throughout page.
+
 Future Enhancements
 
 Unfortunately, due to personal grievances, which led me to loose my first project which was a memory game i had to restart project 2 as a quiz due to time and I was unable to implement other ideas I wanted to include in this quiz. My time was cut very short; however, if I had more time, I would have been able to add them.
@@ -66,6 +75,17 @@ Unfortunately, due to personal grievances, which led me to loose my first projec
 - Implement a database to store high scores and allow users to compete with others.
 - Expand the question bank to offer a more extensive quiz experience.
 - Creating a contents page where it links to different quiz challenges depending on the topic/subject.
+
+### Surface:
+
+The colour scheme for this quiz/game is the same throughout, the start page is a 3 color contrast bertween red green and blue and the same colours are there thorughout the quiz even when it changes to red or green for the correct or incorrect answers it is the sa,e design.
+
+### Skeleton:
+
+Please note the actual design has changed slightly since these wireframes. i initially was using Balsamiq to create the wireframes however the application crashed and will not load again causing me to loose the first produced wireframes.I have attempted to install Balsamiq a few times to the same result.
+
+![wireframe1](assets/images/StartQuiz.jpeg)
+![wireframe2](assets/images/Quiz.jpeg)
 
 ## Technologies Used:
 
@@ -113,7 +133,7 @@ Unfortunately, due to personal grievances, which led me to loose my first projec
 
 # Testing
 
-### User Stories: 
+## User Stories: 
 
 As a first time visitor i want to easily flick through the questions whilst the tally is keeping count. As you can see if i answer corrcetly the tally will go up by 1 , and if i answer incorrectly the tally will go down .
 ![correct answer screenshot](assets/images/Correct_Answer.png)
@@ -122,6 +142,12 @@ As a first time visitor i want to easily flick through the questions whilst the 
 As A first time User i want to easily know whether ive answered correctly or incorrectly , which is easily noticeable by the background which changes colour, green for correct answer or red for incorrect.
 ![correct answer screenshot](assets/images/Correct_Answer.png)
 ![incorrect answer screenshot](assets/images/Incorrect_Answer.png)
+
+## JSHint
+
+The Javascript on my code was tested/validated using JSHint. This website is very helpful as it flags up any warning or error in the code. I have shown an example below where i had many errors where i mainly missed semi-colons.
+
+![JSHint](assets/images/JSHint.png)
 
 ## Lighthouse
 
