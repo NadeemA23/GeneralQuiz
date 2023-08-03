@@ -34,9 +34,9 @@ The main objectives of this project are:
 - shows correct and wrong answer
 - tally count
 
-# Structure:
+## Structure:
 
-## This is a multi page quiz consisting of the following:
+### This is a multi page quiz consisting of the following:
 
 - index.html: The main HTML file containing the structure and layout of the quiz game.
 - style.css: The CSS file that handles the styling and layout of the website.
@@ -58,7 +58,7 @@ HTML
 CSS
 JavaScript
 
-### Scope
+## Scope:
 
 In order to get the correct ideas accross , the game will contain these features: 
 
@@ -86,50 +86,6 @@ Please note the actual design has changed slightly since these wireframes. i ini
 
 ![wireframe1](assets/images/StartQuiz.jpeg)
 ![wireframe2](assets/images/Quiz.jpeg)
-
-## Technologies Used:
-
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- Used as the basic building block for the project and to structure the content.
-
-[CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-- Used as the basic building block for the project and to structure the content.
-
-[Google Fonts](https://fonts.google.com/)
-- Used as the basic building block for the project and to structure the content.
-
-[Font Awesome](https://fontawesome.com/)
-- Used as the basic building block for the project and to structure the content.
-
-[GitHub](https://github.com/)
-- Used to store code for the project after being pushed.
-
-[Git](https://git-scm.com/)
-- Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
-
-[Gitpod](https://www.gitpod.io/)
-- Used as the development environment.
-
-[Balsamiq](https://www.figma.com/)
-- Used to create the wireframes for the project.
-
-[WebDev](https://courses.webdevsimplified.com/)
-- Watched a few tutorials for ideas.
-
-[Youtube](www.youtube.co.uk)
-- Watched and studied many videos to catchup on time missed due to grievances.
-
-[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
-- Used to validate all CSS code written and used in this webpage.
-
-[W3C Markup Validation Service](https://validator.w3.org/)
-- Used to validate all HTML code written and used in this webpage.
-
-[Bootstrap](https://getbootstrap.com/)
-- Obtained some code and reseacrched and learnt various coding methods
-
-[uizard](https://uizard.io/)
-- Replacement application to create wireframes since balsamiq stopped working.
 
 # Testing
 
@@ -199,3 +155,46 @@ Cloning your repository will allow you to download a local version of the reposi
 5. In the terminal type 'git clone' & then paste the link you copied in GitHub
 6. Press enter and your local clone will be created.
 
+## Technologies Used:
+
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- Used as the basic building block for the project and to structure the content.
+
+[CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- Used as the basic building block for the project and to structure the content.
+
+[Google Fonts](https://fonts.google.com/)
+- Used as the basic building block for the project and to structure the content.
+
+[Font Awesome](https://fontawesome.com/)
+- Used as the basic building block for the project and to structure the content.
+
+[GitHub](https://github.com/)
+- Used to store code for the project after being pushed.
+
+[Git](https://git-scm.com/)
+- Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+
+[Gitpod](https://www.gitpod.io/)
+- Used as the development environment.
+
+[Balsamiq](https://www.figma.com/)
+- Used to create the wireframes for the project.
+
+[WebDev](https://courses.webdevsimplified.com/)
+- Watched a few tutorials for ideas.
+
+[Youtube](www.youtube.co.uk)
+- Watched and studied many videos to catchup on time missed due to grievances.
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- Used to validate all CSS code written and used in this webpage.
+
+[W3C Markup Validation Service](https://validator.w3.org/)
+- Used to validate all HTML code written and used in this webpage.
+
+[Bootstrap](https://getbootstrap.com/)
+- Obtained some code and reseacrched and learnt various coding methods
+
+[uizard](https://uizard.io/)
+- Replacement application to create wireframes since balsamiq stopped working.
