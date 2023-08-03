@@ -14,7 +14,7 @@ Restart: Once the quiz is completed, the user has the option to restart the game
 
 Styling: The website has a responsive and visually appealing design, with a color scheme that changes based on correct or wrong answers and is followed throughout.
 
-## Stratergy:
+## Strategy:
 
 The main objectives of this project are:
 
@@ -26,7 +26,7 @@ The main objectives of this project are:
 - Male and female
 - individuals looking to test their knowledge
 - Those who enjoy interactive web experiences.
-- wide range of ages , anyone interested in common knowledge quizes
+- wide range of ages , anyone interested in common knowledge quiz's
 
 ### What these users would be looking for:
 
@@ -60,12 +60,12 @@ JavaScript
 
 ## Scope:
 
-In order to get the correct ideas accross , the game will contain these features: 
+In order to get the correct ideas across , the game will contain these features: 
 
 - logo in web bar 
-- Interactive quiz where the background changes colour depending on whether its correct or incorrect answer
-- A tally which updates everytime a question is answered
-- Same colour scheme / design throughout page.
+- Interactive quiz where the background changes color depending on whether its correct or incorrect answer
+- A tally which updates every time a question is answered
+- Same color scheme / design throughout page.
 
 Future Enhancements
 
@@ -78,24 +78,24 @@ Unfortunately, due to personal grievances, which led me to loose my first projec
 
 ### Surface:
 
-The colour scheme for this quiz/game is the same throughout, the start page is a 3 color contrast bertween red green and blue and the same colours are there thorughout the quiz even when it changes to red or green for the correct or incorrect answers it is the sa,e design.
+The color scheme for this quiz/game is the same throughout, the start page is a 3 color contrast between red green and blue and the same colors are there throughout the quiz even when it changes to red or green for the correct or incorrect answers it is the sa,e design.
 
 ### Skeleton:
 
-Please note the actual design has changed slightly since these wireframes. i initially was using Balsamiq to create the wireframes however the application crashed and will not load again causing me to loose the first produced wireframes.I have attempted to install Balsamiq a few times to the same result.
+Please note the actual design has changed slightly since these wire-frames. i initially was using Balsamiq to create the wire-frames however the application crashed and will not load again causing me to loose the first produced wire-frames.I have attempted to install Balsamiq a few times to the same result.
 
-![wireframe1](assets/images/StartQuiz.jpeg)
-![wireframe2](assets/images/Quiz.jpeg)
+![wire-frame1](assets/images/StartQuiz.jpeg)
+![wire-frame2](assets/images/Quiz.jpeg)
 
 # Testing
 
 ## User Stories: 
 
-As a first time visitor i want to easily flick through the questions whilst the tally is keeping count. As you can see if i answer corrcetly the tally will go up by 1 , and if i answer incorrectly the tally will go down .
+As a first time visitor i want to easily flick through the questions whilst the tally is keeping count. As you can see if i answer correctly the tally will go up by 1 , and if i answer incorrectly the tally will go down .
 ![correct answer screenshot](assets/images/Correct_Answer.png)
 ![incorrect answer screenshot](assets/images/Incorrect_Answer.png)
 
-As A first time User i want to easily know whether ive answered correctly or incorrectly , which is easily noticeable by the background which changes colour, green for correct answer or red for incorrect.
+As A first time User i want to easily know whether ive answered correctly or incorrectly , which is easily noticeable by the background which changes color, green for correct answer or red for incorrect.
 ![correct answer screenshot](assets/images/Correct_Answer.png)
 ![incorrect answer screenshot](assets/images/Incorrect_Answer.png)
 
@@ -107,7 +107,7 @@ The Javascript on my code was tested/validated using JSHint. This website is ver
 
 ## Lighthouse
 
-Lighthouse is a very good & useful tool found in chrome developor and is used to show the websites
+Lighthouse is a very good & useful tool found in chrome developer and is used to show the websites
 
 - Performance
 - Accessibility
@@ -116,7 +116,7 @@ Lighthouse is a very good & useful tool found in chrome developor and is used to
 
 ![lighthouse](assets/images/performance.png)
 
-As shown above my initial performance was in the ornage at 85 , which after a few improvements and corrections it improved and is now in the green as you can see below.
+As shown above my initial performance was in the orange at 85 , which after a few improvements and corrections it improved and is now in the green as you can see below.
 
 ![lighthouse](assets/images/lighthouse.png)
 
@@ -124,7 +124,7 @@ As shown above my initial performance was in the ornage at 85 , which after a fe
 
 I often validated my HTML and CSS code whilst building the website to avoid making the same small errors and to decrease work load at end of project. 
 
-Upon running my HTML code i had 0 problems due to the fact i was continuosly keeping an eye on it, however i did encounter a error when i went to validate my CSS code as you can see below.
+Upon running my HTML code i had 0 problems due to the fact i was continuously keeping an eye on it, however i did encounter a error when i went to validate my CSS code as you can see below.
 ![CSSvalidator](assets/images/CSSerror.png)
 As you can see it was a very simple mistake , a word which was mistyped. After fixing this error the site has 0 errors.
 ![CSSvalidator](assets/images/CSSnoerror.png)
@@ -179,7 +179,7 @@ Cloning your repository will allow you to download a local version of the reposi
 - Used as the development environment.
 
 [Balsamiq](https://www.figma.com/)
-- Used to create the wireframes for the project.
+- Used to create the wire-frames for the project.
 
 [WebDev](https://courses.webdevsimplified.com/)
 - Watched a few tutorials for ideas.
@@ -194,7 +194,7 @@ Cloning your repository will allow you to download a local version of the reposi
 - Used to validate all HTML code written and used in this webpage.
 
 [Bootstrap](https://getbootstrap.com/)
-- Obtained some code and reseacrched and learnt various coding methods
+- Obtained some code and researched and learnt various coding methods
 
 [uizard](https://uizard.io/)
-- Replacement application to create wireframes since balsamiq stopped working.
+- Replacement application to create wire-frames since balsamiq stopped working.
