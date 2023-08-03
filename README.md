@@ -1,9 +1,9 @@
 ![CI logo](assets/images/weblogo.png)
 
-Quiz Game
+## Quiz Game
 This project is a simple quiz game that challenges users with a series of questions on different topics. The game provides multiple-choice options for each question, and the user must select the correct answer. The project is designed to be interactive, engaging, and easy to navigate.
 
-Features
+## Features:
 Homepage: The quiz game starts on the homepage, where users can click the "Start Quiz" button to begin playing.
 Questions: Each question is displayed one at a time, and the user must choose one of the provided answers.
 Scoring: The user's total score is displayed in real-time as they progress through the quiz.
@@ -14,7 +14,7 @@ Restart: Once the quiz is completed, the user has the option to restart the game
 
 Styling: The website has a responsive and visually appealing design, with a color scheme that changes based on correct or wrong answers and is followed throughout.
 
-Objective
+## Stratergy:
 
 The main objectives of this project are:
 
@@ -22,18 +22,27 @@ The main objectives of this project are:
 - To engage users with interactive elements and immediate feedback.
 - To showcase the use of HTML, CSS, and JavaScript to create an interactive web application.
 
-Audience:
+### Quiz target auidence:
+- Male and female
+- individuals looking to test their knowledge
+- Those who enjoy interactive web experiences.
+- wide range of ages , anyone interested in common knowledge quizes
 
-This quiz game is suitable for a wide range of audiences, including individuals looking to test their knowledge on various topics and those who enjoy interactive web experiences.
+### What these users would be looking for:
 
-Structure:
-The project consists of the following files:
+- Easy site with appealing information
+- shows correct and wrong answer
+- tally count
+
+## Structure:
+
+## This is a multi page quiz consisting of the following:
 
 - index.html: The main HTML file containing the structure and layout of the quiz game.
 - style.css: The CSS file that handles the styling and layout of the website.
 - script.js: The JavaScript file responsible for the game's functionality and interactivity.
 
-The quiz game is designed with the following pages:
+### The quiz game is designed with the following pages:
 
 - Homepage: The start page of the quiz game with a "Start Quiz" button.
 - Question Page: Each question is displayed individually, and users can select an answer.
@@ -56,9 +65,9 @@ Unfortunately, due to personal grievances, which led me to loose my first projec
 - Add a timer to each question to make the game more challenging.
 - Implement a database to store high scores and allow users to compete with others.
 - Expand the question bank to offer a more extensive quiz experience.
-- Feel free to play the quiz game and enjoy testing your knowledge across various topics and subjects!
+- Creating a contents page where it links to different quiz challenges depending on the topic/subject.
 
-Technologies Used:
+## Technologies Used:
 
 [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - Used as the basic building block for the project and to structure the content.
@@ -99,4 +108,34 @@ Technologies Used:
 [uizard](https://uizard.io/)
 - Replacement application to create wireframes since balsamiq stopped working.
 
+## Testing
+
+### User Stories: 
+
+As a first time visitor i want to easily flick through the questions whilst the tally is keeping count. As you can see if i answer corrcetly the tally will go up by 1 , and if i answer incorrectly the tally will go down .
+![correct answer screenshot](assets/images/Correct_Answer.png)
+![incorrect answer screenshot](assets/images/Incorrect_Answer.png)
+
+As A first time User i want to easily know whether ive answered correctly or incorrectly , which is easily noticeable by the background which changes colour, green for correct answer or red for incorrect.
+![correct answer screenshot](assets/images/Correct_Answer.png)
+![incorrect answer screenshot](assets/images/Incorrect_Answer.png)
+
+## Lighthouse
+
+Lighthouse is a very good & useful tool found in chrome developor and is used to show the websites
+
+- Performance
+- Accessibility
+- Best Practices
+- SEO
+
+![lighthouse](assets/images/performance.png)
+
+As shown above my initial performance was in the ornage at 85 , which after a few improvements and corrections it improved and is now in the green as you can see below.
+
+![lighthouse](assets/images/lighthouse.png)
+
+## HTML and CSS Validation:
+
+I often validated my HTML and CSS code whilst building the website to avoid making the same small errors and to decrease work load at end of project. 
 
